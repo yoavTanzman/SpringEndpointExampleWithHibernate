@@ -61,6 +61,8 @@ http://localhost:7074/customer/init
   
  POST http://localhost:7074/customer?customerId=???????? get the customer information  
  
+ GET http://localhost:7074/customer/get-all-users get a list of all the users(not customers)
+ 
  Please look at the screen shoots examples added to this repositories 
  
  
