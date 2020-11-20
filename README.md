@@ -77,6 +77,8 @@ http://localhost:7074/customer/init
  next open PostMan
  
 
+<b> ALL FIELDS IN JSON ARE TREATED AS STRING SO PLEASE FILL THEM AS STRING</b>
+
 <b>POSTMAN INSTRUCTIONS</b>
 
 example run:  
