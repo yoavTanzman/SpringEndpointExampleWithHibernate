@@ -24,7 +24,7 @@ http://localhost:7074/customer/init
 
 
 <b>Controller</b><br>
-    <b>CustomerController</b>
+    *CustomerController
 
 <b>DB</b><br>
   <b>*configuration</b> <br>
