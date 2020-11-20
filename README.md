@@ -62,7 +62,38 @@ DB
  
   
  
+ <b>SetUp project </b>
  
+ clone the code locally and run with an IDE of your choice I prefer Intellij 
+ 
+ make sure you use java 1.8 
+ 
+ next--> run the main class MyAccountApplicationTests.java 
+ 
+ next open PostMan
  
 
-to run with PostMan
+POSTMAN INSTRUCTIONS
+
+example run:  
+
+step 1: GET http://localhost:7074/customer/hello check port connection 
+
+step 2 :  GET http://localhost:7074/customer/init init the db
+
+step 3:  POST http://localhost:7074/customer/add-current-new-customer 
+
+in headers tab : key = content type , value = application/json 
+
+inbody pick raw 
+
+and paste the below json 
+
+{
+"customerId":"0000000001",
+"initialCredit":"197.65"
+}
+
+step 4: GET http://localhost:7074/customer/0000000001
+
+
