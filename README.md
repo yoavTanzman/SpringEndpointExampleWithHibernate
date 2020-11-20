@@ -5,7 +5,9 @@ Hey,
 
 below you may find information to the sample endpoints example , 
 
-port is running on localhost:7074
+BE port is running on localhost:7074
+
+FE port is running on localhost:3000 usually (run with visual studio code).
 
 embedded db used is h2 , you can see the results on 
 
@@ -62,6 +64,8 @@ http://localhost:7074/customer/init
  POST http://localhost:7074/customer?customerId=???????? get the customer information  
  
  GET http://localhost:7074/customer/get-all-users get a list of all the users(not customers)
+ 
+  POST http://localhost:7074/customer/add-user (add users from postman easy ) {"firstName":" ", "LastName":"","UserId":""}
  
  Please look at the screen shoots examples added to this repositories 
  
