@@ -22,25 +22,25 @@ http://localhost:7074/customer/init
 
 <b>Project Stracture</b> 
 
-DB<br>
-  *configuration <br>
-         * mapper_config<br>
-  *repository<br>
-         * CustomerRepository<br>
-         * UserRepository<br>
-  *entity<br>
-        *Customer<br>
-        *Transaction<br>
-        *User<br>
+<b>DB</b><br>
+  <b>*configuration</b> <br>
+         ** mapper_config<br>
+  <b>*repository</b><br>
+         ** CustomerRepository<br>
+         ** UserRepository<br>
+  <b>*entity</b><br>
+        **Customer<br>
+        **Transaction<br>
+        **User<br>
         <br>
-  *service<br>
-        *utils<br>
-            *transactionUtils<br>
+  <b>*service</b><br>
+        **utils<br>
+            ***transactionUtils<br>
 
-  *dto<br>
-        *CustomerDto<br>
-        *UserDto<br>
-        *TransactionDto<br>
+  <b>*dto</b><br>
+        **CustomerDto<br>
+        **UserDto<br>
+        **TransactionDto<br>
         
         
         
