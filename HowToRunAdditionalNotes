@@ -1,0 +1,20 @@
+Please follow the below steps to run the app
+
+
+1. run the FE using visual studio code (FE was written with reactJS) 
+
+GUI was created to make your life very easy (look at the other readme file for endpoint and stracture details)
+
+2. run the backEnd with your IDE please note that it is a spring project with lombok 
+
+3. when both services are running try to go to 
+
+http://localhost:7074/customer/hello 
+
+if you see hello port 7074 it means BE is live 
+
+4. go to http://localhost:7074/customer/init 
+
+5. go to port localhost:3000 or any other opened by your server (npm start ) 
+
+6. enjoy your usage of the app you should be able to handle it very easy incase of questions you may contact me  
