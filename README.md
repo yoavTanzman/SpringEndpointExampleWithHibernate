@@ -1,6 +1,8 @@
 # SpringEndpointExampleWithHibernate
 
 
+<b>Also read the instructions in howToRunAdditionalNotes<b>
+   
 Hey,
 
 below you may find information to the sample endpoints example , 
