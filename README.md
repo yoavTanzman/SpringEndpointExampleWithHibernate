@@ -20,32 +20,32 @@ no password
 http://localhost:7074/customer/init
 
 
-Project Stracture 
+<b>Project Stracture</b> 
 
-DB
-  *configuration 
-         * mapper_config
-  *repository
-         * CustomerRepository
-         * UserRepository
-  *entity
-        *Customer
-        *Transaction
-        *User
-        
-  *service
-        *utils
-            *transactionUtils
+DB<br>
+  *configuration <br>
+         * mapper_config<br>
+  *repository<br>
+         * CustomerRepository<br>
+         * UserRepository<br>
+  *entity<br>
+        *Customer<br>
+        *Transaction<br>
+        *User<br>
+        <br>
+  *service<br>
+        *utils<br>
+            *transactionUtils<br>
 
-  *dto
-        *CustomerDto
-        *UserDto
-        *TransactionDto
+  *dto<br>
+        *CustomerDto<br>
+        *UserDto<br>
+        *TransactionDto<br>
         
         
         
         
- Endpoints:
+ <b>Endpoints:</b>
  
  GET http://localhost:7074/customer/init ::: init the list of users 
  
@@ -73,7 +73,7 @@ DB
  next open PostMan
  
 
-POSTMAN INSTRUCTIONS
+<b>POSTMAN INSTRUCTIONS</b>
 
 example run:  
 
