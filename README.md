@@ -109,3 +109,7 @@ and paste the below json
 step 4: GET http://localhost:7074/customer/0000000001
 
 
+<b>Run using GUI </b>
+
+<b>read the instructions in howToRunAdditionalNotes<b>
+
