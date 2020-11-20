@@ -14,7 +14,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class TransactionDto {
 
-    private String desc;
+    private String Description;
     private double amount;
 
 

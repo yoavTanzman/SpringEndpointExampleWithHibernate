@@ -87,7 +87,31 @@ public class CustomerController {
     }
 
 
+    @CrossOrigin(origins = "*",allowedHeaders = "*")
+    @PostMapping(path="/add-user",produces = "application/json")
+    public ResponseEntity<?> addUser(@RequestBody String userJson){
+        JSONObject jsonObject = new JSONObject(userJson);
+        String firstName = jsonObject.getString("firstName");
+        String lastName = jsonObject.getString("sureName");
+        String socialSecurity = jsonObject.getString("userId");
+        UserDto userDto = new UserDto(socialSecurity,firstName,lastName);
+        User userEntity = modelMapper.map(userDto, User.class);
+        userRepository.save(userEntity);
 
+
+        return new ResponseEntity<>("user added: "+userEntity,HttpStatus.OK);
+
+    }
+
+    @CrossOrigin(origins = "*",allowedHeaders = "*")
+    @GetMapping(path="/get-all-users",produces = "application/json")
+    public ResponseEntity<?> getAll(){
+
+        List<User> userList = new ArrayList<>();
+        userList = userRepository.getAllUsers();
+        return new ResponseEntity<>(userList,HttpStatus.OK);
+
+    }
     /**
      *
      * end point to add new customer request json with the below param syntax is important

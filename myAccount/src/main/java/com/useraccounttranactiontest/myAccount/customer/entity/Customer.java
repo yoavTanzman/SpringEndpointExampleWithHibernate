@@ -53,6 +53,7 @@ public class Customer implements Serializable {
         }
         tempTransaction.setCustomer(this);
         transactionList.add(tempTransaction);
+
     }
 
 
