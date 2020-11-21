@@ -7,7 +7,11 @@ Hey,
 
 below you may find information to the sample endpoints example , 
 
+BE PROJECT NAME : MYACCOUNT (JAVA 1.8 Spring Hibernate)
+
 BE port is running on localhost:7074
+
+FE PROJECT NAME: MYAPP
 
 FE port is running on localhost:3000 usually (run with visual studio code).
 
